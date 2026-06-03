@@ -235,6 +235,8 @@ App settings:
 
 For production, run the app behind a production WSGI server and reverse proxy.
 
+Before deployment, create a private `.env` file on the server and confirm that the database user has permission to create, read, update, and delete rows in the configured database.
+
 Example with Gunicorn:
 
 ```bash
