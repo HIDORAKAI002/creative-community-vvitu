@@ -266,6 +266,8 @@ Before pushing:
 python -m py_compile app.py
 ```
 
+After setup, manually test the public landing page, member signup, login, profile update, resource creation, and admin attendance report before deploying changes.
+
 Check that private local files are not present:
 
 ```text
