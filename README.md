@@ -69,6 +69,8 @@ Use `.env.example` as the template for creating your own private `.env` file.
 
 ## Local Setup
 
+These steps are for running the project on a local development machine. For a hosted deployment, use the same environment variables but provide production database credentials and run the Flask app through a production WSGI server.
+
 ### 1. Clone the repository
 
 ```bash
