@@ -254,6 +254,10 @@ If deploying behind Cloudflare or another reverse proxy, confirm the proxy heade
 - Do not rely on browser-side admin checks as the only protection for sensitive actions.
 - Review the admin and security routes before using this in a production environment.
 
+## Maintenance Notes
+
+Review dependencies regularly and test the main login, signup, profile, resources, and admin flows after every backend change.
+
 ## GitHub Upload Checklist
 
 Before pushing:
